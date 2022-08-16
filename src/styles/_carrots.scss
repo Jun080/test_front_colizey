@@ -1,0 +1,15 @@
+.field {
+  background: #e7d168;
+  border: 10px solid #5f3b08;
+  margin-bottom: 50px;
+
+  &__carrot-container {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+  }
+
+  &__carrot {
+    max-width: 100%;
+  }
+}

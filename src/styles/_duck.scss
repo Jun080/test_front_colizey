@@ -1,0 +1,18 @@
+.duck {
+  &__container {
+    height: 300px;
+    width: 300px;
+    background: #56accc;
+    border-radius: 25%;
+    border: 20px solid green;
+    margin-bottom: 50px;
+  }
+
+  &__item {
+    img {
+      width: 60px;
+      transform: scaleX(-1);
+      mix-blend-mode: multiply;
+    }
+  }
+}
