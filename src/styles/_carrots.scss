@@ -2,6 +2,9 @@
   background: #e7d168;
   border: 10px solid #5f3b08;
   margin-bottom: 50px;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(5, 40px) ;
 
   &__carrot-container {
     display: inline-block;
