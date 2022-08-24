@@ -1,3 +1,27 @@
+@media screen and (max-width: 520px){
+  .duck__container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+}
+  
+@media screen and (min-width: 520px) and (max-width: 940px){
+  .duck__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 940px){
+  .duck__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+}
+
 .duck {
   &__container {
     height: 300px;
